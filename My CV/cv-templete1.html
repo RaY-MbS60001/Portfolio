@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sbongakonke Sifiso Mabaso - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            padding: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .cv-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 60px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.05);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .name {
+            font-size: 2.8em;
+            font-weight: 300;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .title {
+            font-size: 1.2em;
+            color: #666;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            font-size: 1.2em;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            color: #000;
+        }
+
+        .experience-item,
+        .education-item {
+            margin-bottom: 30px;
+        }
+
+        .role {
+            font-weight: 500;
+            color: #000;
+        }
+
+        .date {
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        .description {
+            color: #666;
+            font-size: 0.95em;
+            margin-top: 10px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .skill-category {
+            text-align: center;
+        }
+
+        .skill-category h3 {
+            font-size: 0.9em;
+            font-weight: 500;
+            margin-bottom: 10px;
+            color: #000;
+        }
+
+        .skill-list {
+            list-style: none;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media print {
+            body {
+                background: none;
+                padding: 0;
+            }
+
+            .cv-container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <header class="header">
+            <h1 class="name">Sbongakonke Sifiso Mabaso</h1>
+            <div class="title">Computer Science and IT Student</div>
+            <div class="contact-info">
+                <span>sfisomabaso12242001@gmail.com</span>
+                <span>+27 76 017 8522</span>
+                <span>Johannesburg, South Africa</span>
+                <span>LinkedIn: <a href="#">linkedin.com/in/sfisomabaso</a></span>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2 class="section-title">About Me</h2>
+            <p>
+                My name is Sbongakonke Sifiso Mabaso, a passionate 22-year-old student pursuing Computer Science and Information Technology at the University of KwaZulu-Natal. Growing up in Bergville, KwaZulu-Natal, I achieved top rankings in my matric year, including being the only student to earn an A in Life Sciences.
+                I am a member of the Golden Key Society, recognized for being among the top 15% of students in my program. I also have an entrepreneurial spirit, demonstrated by my successful small business building wooden dog kennels during the COVID-19 pandemic.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="experience-item">
+                <div class="role">Quiz Game Development</div>
+                <p class="description">Led a team of 5 in creating an interactive quiz game using C++ and Microsoft Visual Studio, focusing on technical and project management aspects.</p>
+            </div>
+            <div class="experience-item">
+                <div class="role">Clinic Management System</div>
+                <p class="description">Developed a comprehensive web application for clinic management, utilizing C#, ASP.NET, and Agile methodologies.</p>
+            </div>
+            <div class="experience-item">
+                <div class="role">AI Algorithms</div>
+                <p class="description">Implemented various AI algorithms, including genetic algorithms and neural networks, using Python as part of a final-year project.</p>
+            </div>
+            <div class="experience-item">
+                <div class="role">Java OOP Projects</div>
+                <p class="description">Created multiple Java projects showcasing OOP principles and DSA skills, including a file management system.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <div class="role">BSc in Computer Science and IT</div>
+                <div class="date">University of KwaZulu-Natal, 2022 - Present</div>
+            </div>
+            <div class="education-item">
+                <div class="role">Grade 12</div>
+                <div class="date">Tholithemba High School, 2019</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>C#</li>
+                        <li>C++</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <ul class="skill-list">
+                        <li>ASP.NET</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Database</h3>
+                    <ul class="skill-list">
+                        <li>Microsoft SQL</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-item">
+                <div class="role">General Worker</div>
+                <div class="date">Farmlee Save, Dec 2020 - Feb 2021</div>
+                <p class="description">
+                    Managed packaging operations, performed thorough cleaning, and maintained a hygienic environment.
+                </p>
+            </div>
+            <div class="experience-item">
+                <div class="role">Demonstrator</div>
+                <div class="date">University of KwaZulu-Natal, Feb 2024 - Present</div>
+                <p class="description">
+                    Delivered tutoring sessions on OOP, GUI, and foundational Java programming for first- and second-year students.
+                </p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
